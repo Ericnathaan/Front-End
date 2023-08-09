@@ -24,4 +24,6 @@ Git é o sistema de controle de versão open source mais usado no mundo atualmen
 
 - (*Git log*): Mostra o historico de commits
 
-- (*Git branch -M "nome"): Renomeia a ramificação 
+- (*Git branch -M "nome"*): Renomeia a ramificação 
+
+- (*git checkout -b "html"*) 
