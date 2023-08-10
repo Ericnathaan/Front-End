@@ -26,4 +26,10 @@ Git é o sistema de controle de versão open source mais usado no mundo atualmen
 
 - (*Git branch -M "nome"*): Renomeia a ramificação 
 
-- (*git checkout -b "html"*) 
+- (*git checkout -b "nome "*): cria uma nova branch que não altera a principal 
+
+- (*git checkout main*): volta pra ramificação principal
+
+- (*git merge "nome da ramifição anterior*): Combina as mudanças de outra branch na branch atual.
+
+- (*git branch -d "nome"*): Remove um arquivo do repositório 
