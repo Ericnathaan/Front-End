@@ -33,3 +33,7 @@ Git é o sistema de controle de versão open source mais usado no mundo atualmen
 - (*git merge "nome da ramifição anterior*): Combina as mudanças de outra branch na branch atual.
 
 - (*git branch -d "nome"*): Remove um arquivo do repositório
+
+- (*git log --prety=format:"%h %s" --graph*):
+
+- (*git log -p -2*):
