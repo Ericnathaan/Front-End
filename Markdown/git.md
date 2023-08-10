@@ -22,7 +22,7 @@ Git é o sistema de controle de versão open source mais usado no mundo atualmen
 
 - (*Git config --list*): Vai listar as configurações globais
 
-- (*Git log*): Mostra o historico de commits
+- (*Git log --pretty=oneline*): Mostra o historico de commits
 
 - (*Git branch -M "nome"*): Renomeia a ramificação 
 
