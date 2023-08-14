@@ -39,3 +39,5 @@ Git é o sistema de controle de versão open source mais usado no mundo atualmen
 - (*git log -p -2*):
 
 - (*git pull*): sincroniza o repositorio atual com o remoto
+
+-(*git push origin main*): manda para o github
