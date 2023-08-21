@@ -7,6 +7,6 @@ Aqui você verá alguns códigos e arquivos para te auxiliar nos estudos e tamb�
 - [cmd](./Markdown/cmd.md)
 - [git](./Markdown/git.md)
 - [markdown](./Markdown/Markdown.md)
-- [Exercicios em portugol](./Portugol)
+- [Portugol Studio](./Markdown/Portugol.md)
 
 
