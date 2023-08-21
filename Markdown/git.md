@@ -40,15 +40,15 @@ Git é o sistema de controle de versão open source mais usado no mundo atualmen
 
 - (*git pull*): sincroniza o repositorio atual com o remoto
 
--(*git push origin main*): manda para o github
+- (*git push origin main*): manda para o github
 
--(*git remote add origin*):
+- (*git remote add origin*):
 
--(*git remote rm origin*)
+- (*git remote rm origin*)
 
--(*git remote -v*)
+- (*git remote -v*)
 
--(*git remote add "Eric" "link"*)
+- (*git remote add "Eric" "link"*)
 
--(*Teste commit*)
+- (*Teste commit*)
 
