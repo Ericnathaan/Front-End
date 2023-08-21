@@ -42,7 +42,7 @@ Git é o sistema de controle de versão open source mais usado no mundo atualmen
 
 - (*git push origin main*): manda para o github
 
-- (*git remote add origin*):
+- (*git remote add origin "link"*):
 
 - (*git remote rm origin*)
 
