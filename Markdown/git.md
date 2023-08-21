@@ -50,5 +50,5 @@ Git é o sistema de controle de versão open source mais usado no mundo atualmen
 
 - (*git remote add "Eric" "link"*)
 
-- (*Teste commit*)
+- (*Teste commit2*)
 
