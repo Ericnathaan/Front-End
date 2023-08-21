@@ -12,11 +12,11 @@ programa {
   limpa()
 
   se idade >= 18 {
-    escreva (nome ," Voce é maior de idade ")
+    escreva (nome ," Voce Ã© maior de idade ")
     }
   senao
   {
-    escreva ("fAça o ÉLI")
+    escreva ("Voce Ã© menor de idade")
   }  
 
 

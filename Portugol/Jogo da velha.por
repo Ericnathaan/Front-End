@@ -29,7 +29,7 @@ programa{
     
         faca{
           faca{
-            escreva("\n Player ", player , " digite linha e coluna na posiçao que deseja: ")
+            escreva("\n Player ", player , " digite linha e coluna na posiÃ§ao que deseja: ")
             leia(linha, coluna)
           }enquanto(linha < 0 ou linha > 2 ou coluna < 0 ou coluna > 2)
         }enquanto(tabela[linha][coluna] != ' ')
@@ -95,10 +95,10 @@ programa{
       }
   
       se(venceu == 1)
-        escreva("\n\t Parabéns Player 1. Você ganhou 1 MILHÃOO DE REAISS MAÔEEE! \n\n")
+        escreva("\n\t ParabÃ©ns Player 1. VocÃª ganhou 1 MILHÃƒOO DE REAISS MAÃ”EEE! \n\n")
 
       se(venceu == 2)
-        escreva("\n\t Parabéns Player 2. Você ganhou 1 MILHÃOO DE REAISS MAÔEEE! \n\n")
+        escreva("\n\t ParabÃ©ns Player 2. VocÃª ganhou 1 MILHÃƒOO DE REAISS MAÃ”EEE! \n\n")
   
       escreva("Digite 1 para jogar novamente: ")
       leia(opcao)
