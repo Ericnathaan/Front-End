@@ -1,55 +1,72 @@
-# **O que é um git?**
-Git é o sistema de controle de versão open source mais usado no mundo atualmente! Ele é usado para controlar o histórico de alterações de arquivos e principalmente de projetos de desenvolvimento de software. Ele permite mais flexibilidade no fluxo de trabalho, segurança e desempenho.
+# **INTRODUÇÃO  GIT** #
+---
+Olá esse projeto foi criado para aprendizado e ensino do uso basico de GIT.
+
+### **O que é GIT?** ###
+---
+
+O Git é um repositório de controle de versão de arquivos, utilizado para controlar versões de códigos-fonte e desenvolvimento colaborativo. Podendo assim controlar todas as versões de um projeto, sendo possivel ate mesmo rastrear a data e autoria das alterações.
+
+### **INSTALAÇÃO** ###
+---
+
+**Ubuntu:** 
 
 
+Abra o seu terminal e use os comandos a seguir
+```
+sudo apt update
+sudo apt install git
+```
 
+**Windows ou Mac:**
 
-## Comandos git ##
+- [Download](https://git-scm.com/downloads)
 
-- (*Git Init*): Inicia o monitoramento do git
+Apos o download basta seguir o passo a passo da instalação que o assistente lhes informar.
 
-- (*Git status*): Mostra todas as pastas e arquivos dO Projeto
+### **TERMOS COMUNS DE GIT** ###
+---
+**Bash** => Janela de comandos git
 
-- (*Git add*): prepara um arquivo para ser publicado
+**Branch** => Esse termo é usado para definir uma das linhas do tempo do projeto, uma ramificação do versionamento.
 
-- (*Git add .*): Prepara todos os arquivos do repositorio para serem publicados
+**Main** ou **Master** => Termos usados para nomear a Branch principal do protejo
 
-- (*Git commit -m "Alguma coisa "*): Atualiza as alterações do projeto, "Commitando"
+**Commit** => Termo que se refere a consolidação das alteração de um projeto, atribuindo as alterações a uma branch
 
-- (*Git config --global user.name*): Configura um usuario de forma global para realizar os commits
+**Push** => Termo usado para migrar as alterações locais para o repositório remoto
 
-- (*Git config --global user.email*): Configura  um email de usuario global para realizar commits
+### **COMANDOS BÁSICOS** ###
+---
+Para iniciar, clique com o botão direito do mouse na pasta\repositório do projeto deseja começar o versionamento com o git.
 
-- (*Git config --list*): Vai listar as configurações globais
+|Comando|descrição|
+|-|-|
+|`git init`|inicia o uso do git em um projeto, permindo assim o versionamento do repositorio|
+|`git config --global user.name "usuario"`|configura um usuario de forma global para realizar os commits|
+|`git config --global user.email "usuario@email.com"`|configura um email de usuario global para realizar os commits|
+|`git config --global --unset-all user.name`|remove configuração de user.name|
+|`git config --global --unset-all user.email`|remove configuração de user.email|
+|`git config --list`| lista as configurações atuais do git|
+|`git add arquivo.algumaCoisa`|prepara um arquivo para ser publicado|
+|`git add .`|prepara todos os arquivos do repositorio para serem publicados|
+|`git status`|mostra se existe algum(a) item\alguma coisa a  ser publicada, e em qual branch esta sendo trabalhada no momento|
+|`git commit -m "titulo da publicação"`|atualiza as alterações do projeto, "commitando"|
+|`git commit --amend`|utilizado para corrigir pequenos erros no mesmo commit.|
+|`git checkout -b "nome-da-branch"`|cria uma nova branch que não altera a original|
+|`git checkout nome-da-branch`|escolha em qual branch você ira trabalhar no momento|
+|`git merge nome-da-branch`|mescla em uma só a branch informada no comando, com a branch ao qual o comando foi dado|
+|`git remote add origin https://link-do-repositório`| conecta o projeto local com um repositorio remoto|
+|`git push -u origin main`|publica as alterações do projeto no repositorio remoto conectado|
+|`git pull`|Sincroniza rempositorio local atribuindo as ultimas modificação do repositorio remoto|
+|`git log`|mostra historico de commits do projeto|
+|`git log -p -2`|mostra historico de commits do projeto incluindo as diferenças de um para o outro, somente dos ultimos 2 commits|
+|`git log --pretty=format:"%h %s" --graph`|historico de commits com graficos, hash abreviada e comentario|
+|`clear`|limpa os comandos da bash|
 
-- (*Git log --pretty=oneline*): Mostra o historico de commits
+<div style="text-align: right">
 
-- (*Git branch -M "nome"*): Renomeia a ramificação 
+[![voltar](../imagens/icons8-voltar-50.png)](../README.md)
 
-- (*git checkout -b "nome "*): cria uma nova branch que não altera a principal 
-
-- (*git checkout main*): volta pra ramificação principal
-
-- (*git merge "nome da ramifição anterior*): Combina as mudanças de outra branch na branch atual.
-
-- (*git branch -d "nome"*): Remove um arquivo do repositório
-
-- (*git log --prety=format:"%h %s" --graph*):
-
-- (*git log -p -2*):
-
-- (*git pull*): sincroniza o repositorio atual com o remoto
-
-- (*git push origin main*): manda para o github
-
-- (*git remote add origin "link"*):
-
-- (*git remote rm origin*)
-
-- (*git remote -v*)
-
-- (*git remote add "Eric" "link"*)
-
-- (*Teste commit22*)
-
--(teste) 
+</div>
