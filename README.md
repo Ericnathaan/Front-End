@@ -4,9 +4,9 @@ Repositorio criado para desenvolvimento do curso front-end, com intuito de centr
 
 Aqui você verá alguns códigos e arquivos para te auxiliar nos estudos e também alguns projetos para servir de inspiração.
 
-- [cmd](./markdown/cmd.md)
-- [git](./markdown/git.md)
-- [markdown](./markdown/markdown.md)
+- [cmd](./Markdown/cmd.md)
+- [git](./Markdown/git.md)
+- [markdown](./Markdown/Markdown.md)
 - [Exercicios em portugol](./Portugol)
 
 
