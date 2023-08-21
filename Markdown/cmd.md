@@ -1,6 +1,9 @@
-# Comandos Basicos do CMD
+# COMANDOS BASICOS CDM
 
-* dir
-- cd
-- mkdir
-- cls
+|Comando | Descricao |
+| - | - |
+|dir| Mostra o conteudo de um diretorio|
+|cd| Alterna entre diretorios|
+|mkdir| cria um novo diretorio|
+|cls| limpa a sequencia de comandos anteriores|
+
