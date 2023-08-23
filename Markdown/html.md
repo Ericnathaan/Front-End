@@ -146,7 +146,7 @@ Vale lembrar que você pode misturar listas uma na houtra como no exemplo abaixo
             <ol>
                 <li>Bom é quando faz</li>
                 <li>Odiosa natureza humana</li>
-                <li>Robocop gay</li>
+                <li>Robocop </li>
             </ol>
         </dd>    
     </dl>
@@ -167,7 +167,7 @@ Vale lembrar que você pode misturar listas uma na houtra como no exemplo abaixo
         <ol>
             <li>Bom é quando faz</li>
             <li>Odiosa natureza humana</li>
-            <li>Robocop gay</li>
+            <li>Robocop </li>
         </ol>
     </dd>    
 </dl>
@@ -200,10 +200,10 @@ Tabelas são um aspecto importante para qualquer website principalmente quando s
 
 No exemplo abaixo temos as seguintes tags:
 
-- `<table>` indica o inicio de uma tabela
-- `<tr>` indica o inicio da linha de uma tabela
-- `<th>` indica o inicio do titulo de uma tabela
-- `<td>` indica o inicio de uma celula de dados de tabela
+- `<table>` = TABLE :indica o inicio de uma tabela
+- `<tr>` = TABLE ROW : indica o inicio da linha de uma tabela 
+- `<th>` = TABLE HEADER: indica o inicio do titulo de uma tabela
+- `<td>` = TABLE DATA: indica o inicio de uma celula de dados de tabela
 
 ```html
 <table>
