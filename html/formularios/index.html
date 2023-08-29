@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SELECT</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+    <form action="cadastro.js" method="post">
+        <div>
+            <label for="iestado">Estado</label>
+            <select name="Estado" id="iestado">
+
+                <optgroup label="Nordeste">
+                    <option value="BA">BA</option>
+                    <option value="CE">CE</option>
+                </optgroup>
+
+
+                <optgroup label="Sudeste">
+                    <option value="MG">MG</option>
+                    <option value="SP">SP</option>
+                </optgroup> 
+                
+            </select>
+            
+        </div>
+        <br>
+        <hr>
+
+
+        <div>
+            <label for="ijogo">jogo</label>
+            <input type="text" name="jogo" id="ijogo" list="ijogolist">
+
+            <datalist name="jogolist" id="ijogolist">
+                <option value="GOD">GOD OF WAR</option>
+                <option value="GOH">GOD HAND</option>
+            </datalist>
+        </div>
+        <hr>
+        <br>
+
+        <label for="imensagem">Comentarios</label>
+        <br>
+        <textarea name="mensagem" id="imensagem" cols="20" rows="9"></textarea>
+        <hr>
+        <br>
+
+        <div>
+            <label for="irange">Selecione :</label>
+            <input type="range" name="range" id="irange" max="10000" min="0" oninput="saida.innerHTML= Number(range.value)"   >
+
+            <output id="saida" >10000</output>
+        </div>
+
+    </form>
+    
+</body>
+</html>
