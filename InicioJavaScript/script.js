@@ -2,7 +2,7 @@ var n1 = 'Eric'
 var n2 = 10
 var soma = null
 var caneca = {
-    nome:'Teu cu',
+    nome:'caneca',
     cor: 'colorida',
     educativa: true
 }
