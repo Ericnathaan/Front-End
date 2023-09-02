@@ -4,7 +4,7 @@ Repositorio criado para desenvolvimento do curso front-end, com intuito de centr
 
 Aqui você verá alguns códigos e arquivos para te auxiliar nos estudos e também alguns projetos para servir de inspiração.
 
-<div align=center>
+
 
 - [cmd](./Markdown/cmd.md)
 - [git](./Markdown/git.md)
