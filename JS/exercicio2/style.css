@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    margin: 20px auto;
+}
+
+.caixa-lista {
+    width: 150px;
+    border: 1px solid #000000;
+    padding: 10px;
+    
+}
+
+#caixa-lista-a{
+    padding: 40px;
+    margin-right: 60px;
+}
+
+#caixa-lista-b{
+    padding: 40px;
+}
+
+.caixa-lista ul {
+    list-style: none;
+    padding: 0;
+    
+}
+
+.caixa-lista li {
+    border: 1px solid black;
+    margin-bottom: 0.5em;
+    padding: 0.5em;
+    list-style: none;
+    transition: 0.3s;
+    width: 100%;
+    height: 1.5em;
+    cursor: pointer;
+}
+
+.selecionado {
+    background-color: #8c8a8a;
+    border: #000000 1px solid;
+}
+
+.botao-transferir {
+    margin: 0 auto;
+    display: block;
+}
+
+button{
+    padding: 30px;
+    border-radius: 20px;
+}
