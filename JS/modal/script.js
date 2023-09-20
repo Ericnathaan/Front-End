@@ -3,23 +3,24 @@ const btnConfirma = document.getElementById('confirma')
 const btnCancela = document.getElementById('cancela')
 
 btnModal.addEventListener('click', open)
-btnConfirma.addEventListener('click', close)
-btnCancela.addEventListener('click', shut)
+
+btnCancela.addEventListener('click', close)
+
+btnConfirma.addEventListener('click', ()=>{
+    close()
+    alert('Confirmado com sucesso')
+})
 
 function open(){
     const modal = document.getElementById('sec-modal')
-
     modal.classList.remove('hide')
 }
 
 function close(){
     const fechar = document.getElementById('sec-modal')
-    fechar.classList.add('hide')
-    alert ('CONFIRMADO OTARIO')   
+    fechar.classList.add('hide')  
 }
 
-function shut(){
-    const cancelar = document.getElementById('sec-modal')
-    cancelar.classList.add('hide')
-}
+
+
 
