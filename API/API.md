@@ -23,22 +23,7 @@ No contexto de programação em JavaScript, uma "requisição" geralmente se ref
 
 * Requisições POST: Essas requisições são usadas para enviar dados para o servidor. Isso é comum ao enviar formulários da web ou ao fazer alterações no servidor, como criar uma nova postagem em um blog.
 
-As requisições podem ser feitas usando a API Fetch, XMLHttpRequest (um método mais antigo) ou bibliotecas de terceiros como o Axios. Elas são essenciais para a construção de aplicativos web interativos e dinâmicos, pois permitem que o cliente obtenha e envie dados para o servidor de forma assíncrona, sem recarregar a página inteira.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+As requisições podem ser feitas usando a API Fetch, XMLHttpRequest (um método mais antigo) ou bibliotecas de terceiros como o Axios. Elas são essenciais para a construção de aplicativos web interativos e dinâmicos, pois permitem que o cliente obtenha e envie dados para o servidor de forma assíncrona, sem recarregar a página inteira
 
 # Funções Assincronas  
 
