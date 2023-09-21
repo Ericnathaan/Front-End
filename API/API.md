@@ -17,6 +17,29 @@ As APIs funcionam como se fossem contratos, com documentações que representam 
 
 A palavra requisição significa uma solicitação ou pedido. No contexto empresarial, conhecemos requisição como sendo um documento com o objetivo de formalizar uma solicitação de algum produto ou serviço de um fornecedor para a empresa ou de um setor para o outro.
 
+No contexto de programação em JavaScript, uma "requisição" geralmente se refere a uma solicitação feita por um cliente (geralmente um navegador da web) a um servidor para buscar ou enviar dados. As requisições são uma parte fundamental da comunicação entre o navegador e o servidor em aplicações web modernas. Existem dois tipos comuns de requisições em JavaScript:
+
+* Requisições GET: Essas requisições são usadas para buscar informações do servidor. Por exemplo, quando você acessa uma página da web, o navegador faz uma requisição GET para o servidor para obter o HTML da página. Você também pode usar requisições GET para buscar dados em APIs, como dados de previsão do tempo ou informações de produtos.
+
+* Requisições POST: Essas requisições são usadas para enviar dados para o servidor. Isso é comum ao enviar formulários da web ou ao fazer alterações no servidor, como criar uma nova postagem em um blog.
+
+As requisições podem ser feitas usando a API Fetch, XMLHttpRequest (um método mais antigo) ou bibliotecas de terceiros como o Axios. Elas são essenciais para a construção de aplicativos web interativos e dinâmicos, pois permitem que o cliente obtenha e envie dados para o servidor de forma assíncrona, sem recarregar a página inteira.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Funções Assincronas  
 
 - O que são funções assincronas ?
