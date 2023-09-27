@@ -55,9 +55,10 @@ form {
     border-radius: 5px;
     border: 0;
     height: 40px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(77, 72, 72, 0.591);
     margin: 8px;
     text-indent: 20px;
+    color: white;
 
     
 
